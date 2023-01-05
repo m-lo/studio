@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -18,12 +20,21 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.19",
+    "@storybook/addon-interactions": "^7.0.0-beta.19",
+    "@storybook/addon-links": "^7.0.0-beta.19",
+    "@storybook/blocks": "^7.0.0-beta.19",
+    "@storybook/nextjs": "^7.0.0-beta.19",
+    "@storybook/react": "^7.0.0-beta.19",
+    "@storybook/testing-library": "^0.0.13",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb": "latest",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.6.8",
+    "storybook": "^7.0.0-beta.19"
   },
   "packageManager": "yarn@3.3.1"
 }
