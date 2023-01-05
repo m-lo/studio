@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Cursor from '@/components/Cursor';
+import Cursor from 'components/Cursor';
 
 const title = 'Marcus Lo - Software Engineer, Product Designer & Media Artist';
 const description = 'Portfolio of Software Engineer, Product Designer, and Media Artist Marcus Lo, currently based in Sydney, Australia';

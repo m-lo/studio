@@ -8,8 +8,8 @@ const CursorRegion = styled.span({
   width: '100%',
   position: 'absolute',
   overflow: 'hidden',
-  a: "s"
 });
+
 const Circle = styled.div.attrs(
   ({
     isMouseDown, isVisible, position,
