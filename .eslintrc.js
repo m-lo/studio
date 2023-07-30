@@ -1,13 +1,13 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: ['airbnb', 'next', 'plugin:storybook/recommended'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react'],
   rules: {
@@ -20,14 +20,14 @@ module.exports = {
       ignoreDeclarationSort: true,
       ignoreMemberSort: false,
       memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-      allowSeparatedGroups: false
-    }]
+      allowSeparatedGroups: false,
+    }],
   },
   settings: {
     'import/resolver': {
       node: {
-        paths: ['.']
-      }
-    }
-  }
+        paths: ['.'],
+      },
+    },
+  },
 };

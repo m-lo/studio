@@ -1523,6 +1523,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@carbon/icon-helpers@npm:^10.40.0":
+  version: 10.40.0
+  resolution: "@carbon/icon-helpers@npm:10.40.0"
+  checksum: d45ef09d571cad2618eb5e4530b5360a9cc4ee688acfd13bda69ab4c982f7d5d146340bdcb7d40c8ce9f505c215cc0128e1018f8fca36ac9a1f823484749d281
+  languageName: node
+  linkType: hard
+
+"@carbon/icons-react@npm:^11.20.0":
+  version: 11.20.0
+  resolution: "@carbon/icons-react@npm:11.20.0"
+  dependencies:
+    "@carbon/icon-helpers": ^10.40.0
+    "@carbon/telemetry": 0.1.0
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ">=16"
+  checksum: 2eba1ad01bc17505a667077f63b4672f7ff9bd5031770944aa9e39252e4c7d2c6a2b2e0e7401c86c6f58e599726472ff8857570ef7f544f2d1e23be8af459216
+  languageName: node
+  linkType: hard
+
+"@carbon/telemetry@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@carbon/telemetry@npm:0.1.0"
+  bin:
+    carbon-telemetry: bin/carbon-telemetry.js
+  checksum: e93039763ed40b612a1cb5c70001d5e7e92ff034f1559676d47ce9a98e6285ba2856f6a59146b03e6349702eb96d61f2fe91349e981ca858e45c4527a3c1e876
+  languageName: node
+  linkType: hard
+
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -11604,6 +11633,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "studio@workspace:."
   dependencies:
+    "@carbon/icons-react": ^11.20.0
     "@next/font": 13.1.1
     "@storybook/addon-essentials": ^7.0.0-beta.19
     "@storybook/addon-interactions": ^7.0.0-beta.19
